@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd /var/www/html/pipelinetesting/
-c=$(ls -p | grep / | wc -w)
+c=$(ls -l /var/www/html/pipelinetesting/ | grep "^d" | wc -l)
 
 arr1=(Node React React)
 arr2=(index.js 3001 3002)
