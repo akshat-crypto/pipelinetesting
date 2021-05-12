@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cd /var/www/html/
+cd /var/www/html/pipelinetesting/
 c=$(ls -p | grep / | wc -w)
 
-arr1=(Node React)
-arr2=(index.js 3001)
+arr1=(Node React React)
+arr2=(index.js 3001 3002)
 
 arr=(*/)
 for (( i=0; i<$c; i++ ))
