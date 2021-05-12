@@ -6,7 +6,7 @@ c=$(ls -p | grep / | wc -w)
 arr1=(Node React React)
 arr2=(index.js 3001 3002)
 
-arr=(*/)
+arr=(/var/www/html/pipelinetesting/*/)
 for (( i=0; i<$c; i++ ))
 do
         cd ./${arr[i]}
